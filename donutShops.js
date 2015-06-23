@@ -1,4 +1,4 @@
-function createShops() {
+var shops = ( function createShops() {
 	var shop;
 
 	for(var i = 0; i < 3; i++) {
@@ -13,8 +13,4 @@ function createShops() {
 	];
 
 
-}
-
-
-var shops = createShops();
-
+} )();
